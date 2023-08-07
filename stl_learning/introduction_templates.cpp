@@ -40,7 +40,29 @@ public:
 			std::cout<<arr[i]<<"\n";
 		}
 	}
+	
+	T get(int i)const {return arr[i];}
+	int get_size()const {return size;}//must add const
+	
 };
+
+template <typename T>
+BoArray<T> operator *(const BoArray<T>& rhs1,const BoArray<T>& rhs2){
+	BoArray<T> ret;
+	
+	int size_min=rhs1.get_size();
+	
+	if(size_min>rhs2.get_size()){
+		size_min=rhs2.get_size();
+	}
+	
+	for(int i=0;i<size_min;i++){
+		//multiplication
+		ret.push(rhs1.get(i)*rhs2.get(i));
+	}
+	
+	return ret;
+}
 
 int main()
 {
@@ -59,6 +81,8 @@ int main()
 		Array.push(i);
 	}
 	Array.print();
-	
+	Array=square(Array);
+	std::cout<<"square:\n";
+	Array.print();
 	return 0;
 }
