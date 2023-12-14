@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\halloworld.dir/objects.a
+C:\PROGRA~1\REDPAN~1\MinGW64\bin\ar.exe qc CMakeFiles\halloworld.dir/objects.a @CMakeFiles\halloworld.dir\objects1.rsp
+C:\PROGRA~1\REDPAN~1\MinGW64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\halloworld.dir/objects.a -Wl,--no-whole-archive -o halloworld.exe -Wl,--out-implib,libhalloworld.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\halloworld.dir\linkLibs.rsp
