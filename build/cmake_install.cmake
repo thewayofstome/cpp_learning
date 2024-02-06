@@ -1,4 +1,4 @@
-# Install script for directory: F:/新建文件夹/cpp_learning
+# Install script for directory: F:/test/cpp_learning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/新建文件夹/cpp_learning/build/stl_learning/cmake_install.cmake")
+  include("F:/test/cpp_learning/build/stl_learning/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/新建文件夹/cpp_learning/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/test/cpp_learning/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

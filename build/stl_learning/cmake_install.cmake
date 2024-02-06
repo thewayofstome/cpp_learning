@@ -1,4 +1,4 @@
-# Install script for directory: F:/新建文件夹/cpp_learning/stl_learning
+# Install script for directory: F:/test/cpp_learning/stl_learning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

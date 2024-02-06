@@ -1,8 +1,8 @@
 [
 {
-  "directory": "F:/新建文件夹/cpp_learning/build/stl_learning",
-  "command": "C:\\PROGRA~1\\REDPAN~1\\MinGW64\\bin\\G__~1.EXE   -g -o CMakeFiles\\halloworld.dir\\halloworld.cpp.obj -c F:\\新建文件夹\\cpp_learning\\stl_learning\\halloworld.cpp",
-  "file": "F:/新建文件夹/cpp_learning/stl_learning/halloworld.cpp",
+  "directory": "F:/test/cpp_learning/build/stl_learning",
+  "command": "C:\\PROGRA~1\\REDPAN~1\\MinGW64\\bin\\G__~1.EXE   -g -o CMakeFiles\\halloworld.dir\\halloworld.cpp.obj -c F:\\test\\cpp_learning\\stl_learning\\halloworld.cpp",
+  "file": "F:/test/cpp_learning/stl_learning/halloworld.cpp",
   "output": "stl_learning/CMakeFiles/halloworld.dir/halloworld.cpp.obj"
 }
 ]

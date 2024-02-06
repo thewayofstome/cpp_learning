@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\新建文件夹\cpp_learning
+CMAKE_SOURCE_DIR = F:\test\cpp_learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\新建文件夹\cpp_learning\build
+CMAKE_BINARY_DIR = F:\test\cpp_learning\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d F:\新建文件夹\cpp_learning\build && $(CMAKE_COMMAND) -E cmake_progress_start F:\新建文件夹\cpp_learning\build\CMakeFiles F:\新建文件夹\cpp_learning\build\stl_learning\\CMakeFiles\progress.marks
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\新建文件夹\cpp_learning\build\CMakeFiles 0
+	cd /d F:\test\cpp_learning\build && $(CMAKE_COMMAND) -E cmake_progress_start F:\test\cpp_learning\build\CMakeFiles F:\test\cpp_learning\build\stl_learning\\CMakeFiles\progress.marks
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\test\cpp_learning\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/clean
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/preinstall
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/preinstall
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d F:\新建文件夹\cpp_learning\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d F:\test\cpp_learning\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 stl_learning/CMakeFiles/halloworld.dir/rule:
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/CMakeFiles/halloworld.dir/rule
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stl_learning/CMakeFiles/halloworld.dir/rule
 .PHONY : stl_learning/CMakeFiles/halloworld.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ halloworld: stl_learning/CMakeFiles/halloworld.dir/rule
 
 # fast build rule for target.
 halloworld/fast:
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f stl_learning\CMakeFiles\halloworld.dir\build.make stl_learning/CMakeFiles/halloworld.dir/build
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f stl_learning\CMakeFiles\halloworld.dir\build.make stl_learning/CMakeFiles/halloworld.dir/build
 .PHONY : halloworld/fast
 
 halloworld.obj: halloworld.cpp.obj
@@ -134,7 +134,7 @@ halloworld.obj: halloworld.cpp.obj
 
 # target to build an object file
 halloworld.cpp.obj:
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f stl_learning\CMakeFiles\halloworld.dir\build.make stl_learning/CMakeFiles/halloworld.dir/halloworld.cpp.obj
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f stl_learning\CMakeFiles\halloworld.dir\build.make stl_learning/CMakeFiles/halloworld.dir/halloworld.cpp.obj
 .PHONY : halloworld.cpp.obj
 
 halloworld.i: halloworld.cpp.i
@@ -142,7 +142,7 @@ halloworld.i: halloworld.cpp.i
 
 # target to preprocess a source file
 halloworld.cpp.i:
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f stl_learning\CMakeFiles\halloworld.dir\build.make stl_learning/CMakeFiles/halloworld.dir/halloworld.cpp.i
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f stl_learning\CMakeFiles\halloworld.dir\build.make stl_learning/CMakeFiles/halloworld.dir/halloworld.cpp.i
 .PHONY : halloworld.cpp.i
 
 halloworld.s: halloworld.cpp.s
@@ -150,7 +150,7 @@ halloworld.s: halloworld.cpp.s
 
 # target to generate assembly for a file
 halloworld.cpp.s:
-	cd /d F:\新建文件夹\cpp_learning\build && $(MAKE) $(MAKESILENT) -f stl_learning\CMakeFiles\halloworld.dir\build.make stl_learning/CMakeFiles/halloworld.dir/halloworld.cpp.s
+	cd /d F:\test\cpp_learning\build && $(MAKE) $(MAKESILENT) -f stl_learning\CMakeFiles\halloworld.dir\build.make stl_learning/CMakeFiles/halloworld.dir/halloworld.cpp.s
 .PHONY : halloworld.cpp.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d F:\新建文件夹\cpp_learning\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d F:\test\cpp_learning\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -29,12 +29,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
-  "F:/新建文件夹/cpp_learning/CMakeLists.txt"
+  "F:/test/cpp_learning/CMakeLists.txt"
   "CMakeFiles/3.27.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.27.1/CMakeSystem.cmake"
-  "F:/新建文件夹/cpp_learning/stl_learning/CMakeLists.txt"
+  "F:/test/cpp_learning/stl_learning/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
