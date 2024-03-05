@@ -1,5 +1,0 @@
-F:/test/cpp_learning/build/CMakeFiles/edit_cache.dir
-F:/test/cpp_learning/build/CMakeFiles/rebuild_cache.dir
-F:/test/cpp_learning/build/stl_learning/CMakeFiles/halloworld.dir
-F:/test/cpp_learning/build/stl_learning/CMakeFiles/edit_cache.dir
-F:/test/cpp_learning/build/stl_learning/CMakeFiles/rebuild_cache.dir
