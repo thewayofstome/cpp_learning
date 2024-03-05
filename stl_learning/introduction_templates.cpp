@@ -1,7 +1,16 @@
 //introduction templates
 
 #include <iostream>
-
+#include <vector>
+#include <set>
+#include <deque>
+#include <list>
+#include <map>
+#include <unordered_set>
+#include <unordered_map>
+#include <iterator>
+#include <numeric>
+#include <functional>
 //this is a base
 //a int value function
 //{
