@@ -67,6 +67,8 @@ BoArray<T> operator *(const BoArray<T>& rhs1, const BoArray<T>& rhs2) {
 	return ret;
 }
 
+
+
 int main() {
 //	first we create a int return value function
 	std::cout << square(5) << "\n";
